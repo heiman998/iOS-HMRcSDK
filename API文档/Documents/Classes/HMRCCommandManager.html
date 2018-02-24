@@ -1,0 +1,1277 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<title>HMRCCommandManager Class Reference</title>
+
+	<link rel="stylesheet" href="../css/style.css">
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1.4">
+	<meta name="generator" content="appledoc 2.2.1 (build 1334)">
+</head>
+<body class="appledoc">
+	<header>
+		<div class="container" class="hide-in-xcode">
+			
+			<h1 id="library-title">
+				<a href="../index.html">HMRcDemo </a>
+			</h1>
+
+			<p id="developer-home">
+				<a href="../index.html">heimaniOS</a>
+			</p>
+			
+		</div>
+	</header>
+
+	<aside>
+		<div class="container">
+			<nav>
+				<ul id="header-buttons" role="toolbar">
+					<li><a href="../index.html">Index</a></li>
+<li><a href="../hierarchy.html">Hierarchy</a></li>
+
+					<li id="on-this-page" role="navigation">
+						<label>
+							On This Page
+
+							<div class="chevron">
+								<div class="chevy chevron-left"></div>
+								<div class="chevy chevron-right"></div>
+							</div>
+
+							<select id="jump-to">
+	<option value="top">Jump To&#133;</option>
+	
+
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+
+	
+	
+
+	
+	<optgroup label="Class Methods">
+		
+		<option value="//api/name/sharedManager">+ sharedManager</option>
+		
+	</optgroup>
+	
+
+	
+	<optgroup label="Instance Methods">
+		
+		<option value="//api/name/baseReplyWithRcModel:backData:callBack:">- baseReplyWithRcModel:backData:callBack:</option>
+		
+		<option value="//api/name/createLocalCodeWithRcModel:localCodes:callBack:">- createLocalCodeWithRcModel:localCodes:callBack:</option>
+		
+		<option value="//api/name/deleteLocalCodeWithRcModel:OD:callBack:">- deleteLocalCodeWithRcModel:OD:callBack:</option>
+		
+		<option value="//api/name/getDeviceInfoWithHmRcModel:callBack:">- getDeviceInfoWithHmRcModel:callBack:</option>
+		
+		<option value="//api/name/getRcAeckeyWithCallBack:">- getRcAeckeyWithCallBack:</option>
+		
+		<option value="//api/name/getRcDeviceNameWithRcModel:callBack:">- getRcDeviceNameWithRcModel:callBack:</option>
+		
+		<option value="//api/name/getRcTemperatureLimitValueWithRcModel:callBack:">- getRcTemperatureLimitValueWithRcModel:callBack:</option>
+		
+		<option value="//api/name/getRcTemperatureWithRcModel:callBack:">- getRcTemperatureWithRcModel:callBack:</option>
+		
+		<option value="//api/name/getRcTimerWithRcModel:odId:callBack:">- getRcTimerWithRcModel:odId:callBack:</option>
+		
+		<option value="//api/name/setFictitiousDeviceRcCodeWitHmRcModel:HmSendCodeModel:callBack:">- setFictitiousDeviceRcCodeWitHmRcModel:HmSendCodeModel:callBack:</option>
+		
+		<option value="//api/name/setRcDeviceName:hmRcModel:callBack:">- setRcDeviceName:hmRcModel:callBack:</option>
+		
+		<option value="//api/name/setRcTemperatureLimitValueWithRcModel:HmTempAlarmModel:callBack:">- setRcTemperatureLimitValueWithRcModel:HmTempAlarmModel:callBack:</option>
+		
+		<option value="//api/name/setRcTimeZone:RcModel:callBack:">- setRcTimeZone:RcModel:callBack:</option>
+		
+		<option value="//api/name/setRcTimerWithRcModel:odId:hmRcTimer:callBack:">- setRcTimerWithRcModel:odId:hmRcTimer:callBack:</option>
+		
+		<option value="//api/name/statLearnRcActionWithRcModel:odId:callBack:">- statLearnRcActionWithRcModel:odId:callBack:</option>
+		
+		<option value="//api/name/updateRcFirmware:RcModel:callBack:">- updateRcFirmware:RcModel:callBack:</option>
+		
+	</optgroup>
+	
+	
+</select>
+						</label>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</aside>
+
+	<article>
+		<div id="overview_contents" class="container">
+			<div id="content">
+				<main role="main">
+					<h1 class="title">HMRCCommandManager Class Reference</h1>
+
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<th>Inherits from</th>
+	<td>NSObject</td>
+</tr><tr>
+	<th>Declared in</th>
+	<td>HMRCCommandManager.h</td>
+</tr>
+						</tbody></table></div>
+					
+
+                    
+
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						
+
+						
+						
+
+						<div class="task-list">
+							<div class="section-method">
+	<a name="//api/name/sharedManager" title="sharedManager"></a>
+	<h3 class="method-title"><code><a href="#//api/name/sharedManager">+&nbsp;sharedManager</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>单例</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (instancetype)sharedManager</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>单例</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">HMRCCommandManager.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/getRcAeckeyWithCallBack:" title="getRcAeckeyWithCallBack:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/getRcAeckeyWithCallBack:">&ndash;&nbsp;getRcAeckeyWithCallBack:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>获取密钥</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)getRcAeckeyWithCallBack:(RcCallBack)<em>callBack</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>callBack</code></th>
+						<td><p>信息回调</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>获取密钥</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">HMRCCommandManager.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/getDeviceInfoWithHmRcModel:callBack:" title="getDeviceInfoWithHmRcModel:callBack:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/getDeviceInfoWithHmRcModel:callBack:">&ndash;&nbsp;getDeviceInfoWithHmRcModel:callBack:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>获取设备的基本信息</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)getDeviceInfoWithHmRcModel:(HMRcModel *)<em>rcModel</em> callBack:(RcCallBack)<em>callBack</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>rcModel</code></th>
+						<td><p>需要模型对象中的密钥</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>callBack</code></th>
+						<td><p>信息回调</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>获取设备的基本信息</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">HMRCCommandManager.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/setRcTimeZone:RcModel:callBack:" title="setRcTimeZone:RcModel:callBack:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/setRcTimeZone:RcModel:callBack:">&ndash;&nbsp;setRcTimeZone:RcModel:callBack:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>设置时区</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)setRcTimeZone:(NSString *)<em>timeZone</em> RcModel:(HMRcModel *)<em>rcModel</em> callBack:(RcCallBack)<em>callBack</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>timeZone</code></th>
+						<td><p>时区</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>rcModel</code></th>
+						<td><p>需要模型对象中的密钥</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>callBack</code></th>
+						<td><p>信息回调</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>设置时区</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">HMRCCommandManager.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/getRcDeviceNameWithRcModel:callBack:" title="getRcDeviceNameWithRcModel:callBack:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/getRcDeviceNameWithRcModel:callBack:">&ndash;&nbsp;getRcDeviceNameWithRcModel:callBack:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>获取红外设备名字</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)getRcDeviceNameWithRcModel:(HMRcModel *)<em>rcModel</em> callBack:(RcCallBack)<em>callBack</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>rcModel</code></th>
+						<td><p>需要模型对象中的密钥</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>callBack</code></th>
+						<td><p>信息回调</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>获取红外设备名字</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">HMRCCommandManager.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/setRcDeviceName:hmRcModel:callBack:" title="setRcDeviceName:hmRcModel:callBack:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/setRcDeviceName:hmRcModel:callBack:">&ndash;&nbsp;setRcDeviceName:hmRcModel:callBack:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>设置红外设备名字</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)setRcDeviceName:(NSString *)<em>deviceName</em> hmRcModel:(HMRcModel *)<em>rcModel</em> callBack:(RcCallBack)<em>callBack</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>deviceName</code></th>
+						<td><p>红外设备的名字</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>rcModel</code></th>
+						<td><p>需要模型对象中的密钥</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>callBack</code></th>
+						<td><p>信息回调</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>设置红外设备名字</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">HMRCCommandManager.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/updateRcFirmware:RcModel:callBack:" title="updateRcFirmware:RcModel:callBack:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/updateRcFirmware:RcModel:callBack:">&ndash;&nbsp;updateRcFirmware:RcModel:callBack:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>固件升级</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)updateRcFirmware:(NSInteger)<em>deviceType</em> RcModel:(HMRcModel *)<em>rcModel</em> callBack:(RcCallBack)<em>callBack</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>deviceType</code></th>
+						<td><p>固件类型</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>rcModel</code></th>
+						<td><p>需要模型对象中的密钥</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>callBack</code></th>
+						<td><p>信息回调</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>固件升级</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">HMRCCommandManager.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/statLearnRcActionWithRcModel:odId:callBack:" title="statLearnRcActionWithRcModel:odId:callBack:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/statLearnRcActionWithRcModel:odId:callBack:">&ndash;&nbsp;statLearnRcActionWithRcModel:odId:callBack:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>红外学习功能</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)statLearnRcActionWithRcModel:(HMRcModel *)<em>rcModel</em> odId:(NSString *)<em>OD</em> callBack:(RcCallBack)<em>callBack</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>rcModel</code></th>
+						<td><p>需要模型对象中的密钥</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>OD</code></th>
+						<td><p>虚拟设备id</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>callBack</code></th>
+						<td><p>信息回调</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>红外学习功能</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">HMRCCommandManager.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/getRcTimerWithRcModel:odId:callBack:" title="getRcTimerWithRcModel:odId:callBack:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/getRcTimerWithRcModel:odId:callBack:">&ndash;&nbsp;getRcTimerWithRcModel:odId:callBack:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>获取定时时间指令</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)getRcTimerWithRcModel:(HMRcModel *)<em>rcModel</em> odId:(NSString *)<em>OD</em> callBack:(RcCallBack)<em>callBack</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>rcModel</code></th>
+						<td><p>密钥</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>OD</code></th>
+						<td><p>虚拟设备id</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>callBack</code></th>
+						<td><p>回调信息</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>获取定时时间指令</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">HMRCCommandManager.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/setRcTimerWithRcModel:odId:hmRcTimer:callBack:" title="setRcTimerWithRcModel:odId:hmRcTimer:callBack:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/setRcTimerWithRcModel:odId:hmRcTimer:callBack:">&ndash;&nbsp;setRcTimerWithRcModel:odId:hmRcTimer:callBack:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>app设置定时时间指令</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)setRcTimerWithRcModel:(HMRcModel *)<em>rcModel</em> odId:(NSString *)<em>OD</em> hmRcTimer:(HMRCTimer *)<em>rcTimer</em> callBack:(RcCallBack)<em>callBack</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>rcModel</code></th>
+						<td><p>密钥</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>OD</code></th>
+						<td><p>虚拟设备id</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>rcTimer</code></th>
+						<td><p>定时器对象</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>callBack</code></th>
+						<td><p>信息回调</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>app设置定时时间指令</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">HMRCCommandManager.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/setFictitiousDeviceRcCodeWitHmRcModel:HmSendCodeModel:callBack:" title="setFictitiousDeviceRcCodeWitHmRcModel:HmSendCodeModel:callBack:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/setFictitiousDeviceRcCodeWitHmRcModel:HmSendCodeModel:callBack:">&ndash;&nbsp;setFictitiousDeviceRcCodeWitHmRcModel:HmSendCodeModel:callBack:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>虚拟设备发送红外码库</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)setFictitiousDeviceRcCodeWitHmRcModel:(HMRcModel *)<em>rcModel</em> HmSendCodeModel:(HMSendCodeModel *)<em>sModel</em> callBack:(RcCallBack)<em>callBack</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>rcModel</code></th>
+						<td><p>密钥</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>sModel</code></th>
+						<td><p>红外码值HMSendCodeModel模型</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>callBack</code></th>
+						<td><p>回调消息码</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>虚拟设备发送红外码库</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">HMRCCommandManager.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/getRcTemperatureWithRcModel:callBack:" title="getRcTemperatureWithRcModel:callBack:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/getRcTemperatureWithRcModel:callBack:">&ndash;&nbsp;getRcTemperatureWithRcModel:callBack:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>获取红外温度</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)getRcTemperatureWithRcModel:(HMRcModel *)<em>rcModel</em> callBack:(RcCallBack)<em>callBack</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>rcModel</code></th>
+						<td><p>密钥</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>callBack</code></th>
+						<td><p>消息回调</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>获取红外温度</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">HMRCCommandManager.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/getRcTemperatureLimitValueWithRcModel:callBack:" title="getRcTemperatureLimitValueWithRcModel:callBack:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/getRcTemperatureLimitValueWithRcModel:callBack:">&ndash;&nbsp;getRcTemperatureLimitValueWithRcModel:callBack:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>获取温度报警阈值</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)getRcTemperatureLimitValueWithRcModel:(HMRcModel *)<em>rcModel</em> callBack:(RcCallBack)<em>callBack</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>rcModel</code></th>
+						<td><p>密钥</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>callBack</code></th>
+						<td><p>消息回调</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>获取温度报警阈值</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">HMRCCommandManager.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/setRcTemperatureLimitValueWithRcModel:HmTempAlarmModel:callBack:" title="setRcTemperatureLimitValueWithRcModel:HmTempAlarmModel:callBack:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/setRcTemperatureLimitValueWithRcModel:HmTempAlarmModel:callBack:">&ndash;&nbsp;setRcTemperatureLimitValueWithRcModel:HmTempAlarmModel:callBack:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>设置温度报警阈值</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)setRcTemperatureLimitValueWithRcModel:(HMRcModel *)<em>rcModel</em> HmTempAlarmModel:(HMTempAlarmModel *)<em>tpAlarm</em> callBack:(RcCallBack)<em>callBack</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>rcModel</code></th>
+						<td><p>密钥</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>tpAlarm</code></th>
+						<td><p>温度报警阈值</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>callBack</code></th>
+						<td><p>信息回调</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>设置温度报警阈值</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">HMRCCommandManager.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/createLocalCodeWithRcModel:localCodes:callBack:" title="createLocalCodeWithRcModel:localCodes:callBack:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/createLocalCodeWithRcModel:localCodes:callBack:">&ndash;&nbsp;createLocalCodeWithRcModel:localCodes:callBack:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>创建本地码库</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)createLocalCodeWithRcModel:(HMRcModel *)<em>rcModel</em> localCodes:(NSArray&lt;HMSendCodeModel*&gt; *)<em>localCodeList</em> callBack:(RcCallBack)<em>callBack</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>rcModel</code></th>
+						<td><p>密钥</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>localCodeList</code></th>
+						<td><p>红外码值列表</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>callBack</code></th>
+						<td><p>回复信息</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>创建本地码库</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">HMRCCommandManager.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/deleteLocalCodeWithRcModel:OD:callBack:" title="deleteLocalCodeWithRcModel:OD:callBack:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/deleteLocalCodeWithRcModel:OD:callBack:">&ndash;&nbsp;deleteLocalCodeWithRcModel:OD:callBack:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>删除本地码库</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)deleteLocalCodeWithRcModel:(HMRcModel *)<em>rcModel</em> OD:(NSString *)<em>od</em> callBack:(RcCallBack)<em>callBack</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>rcModel</code></th>
+						<td><p>密钥</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>od</code></th>
+						<td><p>虚拟设备id</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>callBack</code></th>
+						<td><p>回复信息</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>删除本地码库</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">HMRCCommandManager.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/baseReplyWithRcModel:backData:callBack:" title="baseReplyWithRcModel:backData:callBack:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/baseReplyWithRcModel:backData:callBack:">&ndash;&nbsp;baseReplyWithRcModel:backData:callBack:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>设备回复或主动上报的信息</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)baseReplyWithRcModel:(HMRcModel *)<em>rcModel</em> backData:(NSData *)<em>data</em> callBack:(RcCallBack)<em>callBack</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>rcModel</code></th>
+						<td><p>密钥</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>data</code></th>
+						<td><p>回复或上报的数据信息</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>callBack</code></th>
+						<td><p>回调的信息</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>设备回复或主动上报的信息</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">HMRCCommandManager.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div>
+						</div>
+						
+					</div>
+					
+					
+
+                    
+                    
+          
+				</main>
+
+				<footer>
+					<div class="footer-copyright">
+						
+						<p class="copyright">Copyright &copy; 2018 heimaniOS. All rights reserved. Updated: 2018-02-09</p>
+						
+						
+						<p class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2.1 (build 1334)</a>.</p>
+						
+					</div>
+				</footer>
+			</div>
+		</div>
+	</article>
+
+	<script src="../js/script.js"></script>
+</body>
+</html>
