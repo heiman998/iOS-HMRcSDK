@@ -203,7 +203,13 @@
         default:
             break;
     }
-//    如果设备有消息回来 获取到私钥
+//   1 如果设备有消息回来 获取到私钥 用公钥解密
+//    self.rcModel.acckey = @"xxxxxxxxx";
+//    self.rcModel.aeskey = nil;
+    
+//   2  如果设备有非获取私钥指令消息回来 用私钥解密
+//    self.rcModel.aeskey = @"xxxxxxxxx";
+    
 //    [[HMRCCommandManager sharedManager] baseReplyWithRcModel:self.rcModel backData:nil callBack:^(id successInfo, NSInteger sn, NSInteger errorCode) {
 //        NSUserDefaults * defaults = [NSUserDefaults standardUserDefaults];
 //        [defaults setObject:successInfo forKey:@"demo_Aeskey"];

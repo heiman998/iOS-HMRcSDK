@@ -20,7 +20,6 @@
 //A020A61387B6
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-//    初始化HMRcSdk
     [HMRcSDK startHmRcSDKWithUserName:@"HJ" andUserId:@"110"];
     self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
     self.window.backgroundColor =[UIColor whiteColor];

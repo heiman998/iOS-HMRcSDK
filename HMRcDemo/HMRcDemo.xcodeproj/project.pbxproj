@@ -13,6 +13,7 @@
 		040BCB462022E3D900046B19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 040BCB452022E3D900046B19 /* Assets.xcassets */; };
 		040BCB492022E3D900046B19 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 040BCB472022E3D900046B19 /* LaunchScreen.storyboard */; };
 		040BCB4C2022E3D900046B19 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 040BCB4B2022E3D900046B19 /* main.m */; };
+		040BCB892022E6EC00046B19 /* libHMRcSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 040BCB8A2022E6EC00046B19 /* libHMRcSDK.a */; };
 		040BCB8B2022E6F000046B19 /* libAFNetworking.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 040BCB8C2022E6F000046B19 /* libAFNetworking.a */; };
 		0472C873202BE4AE00B69338 /* HmGetCodesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0472C872202BE4AE00B69338 /* HmGetCodesViewController.m */; };
 		048D12BA202A87D1009260FE /* HmDeviceTypeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 048D12B9202A87D1009260FE /* HmDeviceTypeViewController.m */; };
@@ -20,8 +21,6 @@
 		048D12C0202AA8A3009260FE /* HmBrandInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 048D12BF202AA8A3009260FE /* HmBrandInfoViewController.m */; };
 		048D12E5202B021E009260FE /* HmCodeListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 048D12E4202B021E009260FE /* HmCodeListViewController.m */; };
 		04BAB85B202D32920069DEB5 /* HmSetNetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BAB85A202D32920069DEB5 /* HmSetNetViewController.m */; };
-		04BAB86C202D7E1C0069DEB5 /* libHMRcSdk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 04BAB86B202D7E1C0069DEB5 /* libHMRcSdk.a */; };
-		04BAB86E202D935F0069DEB5 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 04BAB86D202D935F0069DEB5 /* README.md */; };
 		04DF3B7B2029B53300EE75D3 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DF3B7A2029B53300EE75D3 /* BaseViewController.m */; };
 		04DF3B812029B6CF00EE75D3 /* HmAreaInfoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DF3B802029B6CF00EE75D3 /* HmAreaInfoController.m */; };
 		04DF3B822029B75F00EE75D3 /* libMBProgressHUD.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 04DF3B832029B75F00EE75D3 /* libMBProgressHUD.a */; };
@@ -54,15 +53,6 @@
 		048D12E4202B021E009260FE /* HmCodeListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HmCodeListViewController.m; sourceTree = "<group>"; };
 		04BAB859202D32920069DEB5 /* HmSetNetViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HmSetNetViewController.h; sourceTree = "<group>"; };
 		04BAB85A202D32920069DEB5 /* HmSetNetViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HmSetNetViewController.m; sourceTree = "<group>"; };
-		04BAB864202D7E1C0069DEB5 /* HMRCCommandManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMRCCommandManager.h; sourceTree = "<group>"; };
-		04BAB865202D7E1C0069DEB5 /* HMRcCommandsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMRcCommandsModel.h; sourceTree = "<group>"; };
-		04BAB866202D7E1C0069DEB5 /* HmRcHttpRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HmRcHttpRequest.h; sourceTree = "<group>"; };
-		04BAB867202D7E1C0069DEB5 /* HMRcModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMRcModel.h; sourceTree = "<group>"; };
-		04BAB868202D7E1C0069DEB5 /* HMRcSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMRcSDK.h; sourceTree = "<group>"; };
-		04BAB869202D7E1C0069DEB5 /* HMRCTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMRCTimer.h; sourceTree = "<group>"; };
-		04BAB86A202D7E1C0069DEB5 /* HmSmartLinkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HmSmartLinkManager.h; sourceTree = "<group>"; };
-		04BAB86B202D7E1C0069DEB5 /* libHMRcSdk.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libHMRcSdk.a; sourceTree = "<group>"; };
-		04BAB86D202D935F0069DEB5 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		04DF3B792029B53300EE75D3 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
 		04DF3B7A2029B53300EE75D3 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
 		04DF3B7F2029B6CF00EE75D3 /* HmAreaInfoController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HmAreaInfoController.h; sourceTree = "<group>"; };
@@ -82,8 +72,8 @@
 			files = (
 				04DF3B822029B75F00EE75D3 /* libMBProgressHUD.a in Frameworks */,
 				040BCB8B2022E6F000046B19 /* libAFNetworking.a in Frameworks */,
-				04BAB86C202D7E1C0069DEB5 /* libHMRcSdk.a in Frameworks */,
 				048D12BD202AA23D009260FE /* MapKit.framework in Frameworks */,
+				040BCB892022E6EC00046B19 /* libHMRcSDK.a in Frameworks */,
 				125DFC0635D7B6B0C3B7E4DD /* libPods-HMRcDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -94,7 +84,6 @@
 		040BCB302022E3D900046B19 = {
 			isa = PBXGroup;
 			children = (
-				04BAB862202D7E1C0069DEB5 /* HMRcSdk */,
 				040BCB3B2022E3D900046B19 /* HMRcDemo */,
 				040BCB3A2022E3D900046B19 /* Products */,
 				F8ED25BDDD208BFAB96088C6 /* Pods */,
@@ -141,30 +130,6 @@
 				040BCB4B2022E3D900046B19 /* main.m */,
 			);
 			path = HMRcDemo;
-			sourceTree = "<group>";
-		};
-		04BAB862202D7E1C0069DEB5 /* HMRcSdk */ = {
-			isa = PBXGroup;
-			children = (
-				04BAB863202D7E1C0069DEB5 /* HMRcSDK */,
-				04BAB86B202D7E1C0069DEB5 /* libHMRcSdk.a */,
-				04BAB86D202D935F0069DEB5 /* README.md */,
-			);
-			path = HMRcSdk;
-			sourceTree = "<group>";
-		};
-		04BAB863202D7E1C0069DEB5 /* HMRcSDK */ = {
-			isa = PBXGroup;
-			children = (
-				04BAB864202D7E1C0069DEB5 /* HMRCCommandManager.h */,
-				04BAB865202D7E1C0069DEB5 /* HMRcCommandsModel.h */,
-				04BAB866202D7E1C0069DEB5 /* HmRcHttpRequest.h */,
-				04BAB867202D7E1C0069DEB5 /* HMRcModel.h */,
-				04BAB868202D7E1C0069DEB5 /* HMRcSDK.h */,
-				04BAB869202D7E1C0069DEB5 /* HMRCTimer.h */,
-				04BAB86A202D7E1C0069DEB5 /* HmSmartLinkManager.h */,
-			);
-			path = HMRcSDK;
 			sourceTree = "<group>";
 		};
 		B00E3C91BE87059F0DC49D89 /* Frameworks */ = {
@@ -260,7 +225,6 @@
 			files = (
 				040BCB492022E3D900046B19 /* LaunchScreen.storyboard in Resources */,
 				040BCB462022E3D900046B19 /* Assets.xcassets in Resources */,
-				04BAB86E202D935F0069DEB5 /* README.md in Resources */,
 				040BCB442022E3D900046B19 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -473,10 +437,6 @@
 				INFOPLIST_FILE = HMRcDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/HMRcSdk",
-				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.cl.HMRcDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
@@ -494,10 +454,6 @@
 				INFOPLIST_FILE = HMRcDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/HMRcSdk",
-				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.cl.HMRcDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;

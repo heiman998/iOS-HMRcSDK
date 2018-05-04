@@ -75,7 +75,6 @@ dispatch_async(dispatch_get_main_queue(), ^{
 
 
 
-
 #pragma mark 获取当前 wifi_IP
 - (NSString *)getWifiName
 {

@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:HMRcSDK/HMRcSDK.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:HMRcDemo.xcodeproj">
    </FileRef>
    <FileRef

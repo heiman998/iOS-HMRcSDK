@@ -1,4 +1,0 @@
-Documentation set was installed to Xcode!
-
-Path: /Users/mac/Library/Developer/Shared/Documentation/DocSets/com.heimanios.hmrcdemo.HMRcDemo.docset
-Time: 2018-02-09 08:26:44 +0000

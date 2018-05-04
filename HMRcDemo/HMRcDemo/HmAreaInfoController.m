@@ -24,7 +24,12 @@
     self.automaticallyAdjustsScrollViewInsets = false;
     self.tableView.tableFooterView = [[UIView alloc]initWithFrame:CGRectZero];
     
-    NSDictionary * rcInfo = @{RcCurrentMacAddress:[[NSUserDefaults standardUserDefaults]objectForKey:@"wifi_devMac"]};
+    NSDictionary * rcInfo = [NSDictionary dictionary];
+    if ([[NSUserDefaults standardUserDefaults]objectForKey:@"wifi_devMac"]) {
+        rcInfo = @{RcCurrentMacAddress:[[NSUserDefaults standardUserDefaults]objectForKey:@"wifi_devMac"]};
+    }else{
+        NSLog(@"--------不能获取码库----------------需要获取mac地址--------------------");
+    }
     UIView *view = [(AppDelegate *)[[UIApplication sharedApplication] delegate] window];
     MBProgressHUD * hud = [MBProgressHUD showHUDAddedTo:view animated:YES];
     hud.mode = MBProgressHUDModeText;
